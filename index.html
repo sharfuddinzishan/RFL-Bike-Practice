@@ -8,16 +8,120 @@
     <title>RFL-BIKE</title>
     <!-- Bootstrap CSS Link -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bikebd-style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="bg-gradient" id="bg-header">
+
+        <!-- Nav Section  -->
+        <section class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- END of nav section  -->
+
+        <!-- Banner Section  -->
+        <section class="container p-4">
+            <div class="row align-items-center">
+                <!-- Banner Left Part  -->
+                <div class="col-sm-12 col-md-6">
+                    <small class="text-light">Computer-controlled digital transistorized with electronic
+                        advance</small>
+                    <h1 class="text-white fw-bolder my-2 banner-title">
+                        Honda <span class="banner-title-transition">CBR 150R</span>
+                    </h1>
+                    <p class="text-white-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                        sint.Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                    </p>
+
+                    <!-- Modal Popup Section-->
+                    <section>
+                        <button type="button" class="btn btn-bike-color text-white bg-gradient" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Confirm Your Purchase...</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 class="text-end">৳ 480,000</h5>
+                                        <p>Do You Want To <a href="https://www.bikebd.com/price/honda-cbr-150r-repsol/"
+                                                role="button"
+                                                class="btn btn-outline-secondary btn-link text-reset text-decoration-none popover-test"
+                                                title="Honda CBR 150R" data-bs-content="" target="_blank">Purchase</a>
+                                            Honda CBR 150R ?
+                                        </p>
+                                        <hr>
+                                        <p class="bike-text-justify">The Indonesian HONDA CBR 150R is the fans’ favorite
+                                            offering from Bangladesh
+                                            Honda Private Limited. The MotoGP edition comes with the official MotoGP
+                                            liveries. This bike features a 150 cc segment engine and aggressive approach
+                                            to its Super Sports styling. With its attractive styling, it snatches the
+                                            attention of people.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a class="btn btn-secondary text-white text-decoration-none popover-test"
+                                            href="https://www.banglamotor.net/honda_cbr_150r.html" target="_blank">Buy
+                                            Now</a>
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- END Modal Popup Section-->
+                </div>
+                <!-- END Banner Left Part  -->
+
+                <!-- Banner Right Part  -->
+                <div class="col-sm-12 col-md-6">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+                <!-- END Banner Right Part  -->
+
+            </div>
+        </section>
+        <!-- END Banner Section  -->
 
     </header>
 
     <main>
-
+        <section class="container mt-2"></section>
     </main>
 
     <footer>

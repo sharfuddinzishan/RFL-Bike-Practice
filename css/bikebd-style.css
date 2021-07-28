@@ -1,0 +1,26 @@
+/* Header */
+#bg-header
+{
+    background-color: #264653;
+    /* height: 100vh; */
+}
+.banner-title:hover .banner-title-transition
+{
+    color: gray;
+    transition: color 1s ease-in;
+}
+.btn-bike-color
+{
+    background-color: #E76F51;
+    transition: all 0.5s;
+}
+.btn-bike-color:hover
+{
+    background-color: rgba(255, 255, 255, 0);;
+    border: 1px solid #E76F51;
+}
+
+.bike-text-justify
+{
+    text-align: justify;
+}
