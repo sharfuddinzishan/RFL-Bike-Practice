@@ -1,5 +1,6 @@
 /* Common  */
-.bike-section-title-color
+.bike-section-title-color,
+.checked /* Client Rating */
 {
     color: #E76F51;
 }
@@ -37,8 +38,4 @@
 .bike-client-name
 {
     color: #23A6F0;
-}
-.checked 
-{
-    color: #E76F51;
 }
