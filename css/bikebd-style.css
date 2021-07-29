@@ -39,3 +39,10 @@
 {
     color: #23A6F0;
 }
+
+/* Blog Section  */
+.bike-blog-link:hover
+{
+    background-color: #23A6F0;
+    border: 1px solid #E76F51;
+}
