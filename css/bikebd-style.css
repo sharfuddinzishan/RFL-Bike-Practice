@@ -20,3 +20,9 @@
 {
     text-align: justify;
 }
+
+/* Featured Section  */
+.bike-featured-img-grayscale
+{
+    filter: grayscale(100%);
+}
