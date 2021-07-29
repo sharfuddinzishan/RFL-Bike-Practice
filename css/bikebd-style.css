@@ -1,3 +1,9 @@
+/* Common  */
+.bike-section-title-color
+{
+    color: #E76F51;
+}
+
 /* Header */
 #bg-header
 {
@@ -25,4 +31,14 @@
 .bike-featured-img-grayscale
 {
     filter: grayscale(100%);
+}
+
+/* Client Section  */
+.bike-client-name
+{
+    color: #23A6F0;
+}
+.checked 
+{
+    color: #E76F51;
 }
